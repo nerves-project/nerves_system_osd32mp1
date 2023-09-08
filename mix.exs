@@ -107,7 +107,7 @@ defmodule NervesSystemOsd32mp1.MixProject do
       "uboot",
       "CHANGELOG.md",
       "extlinux.conf",
-      "fwup-revert.conf",
+      "fwup-ops.conf",
       "fwup.conf",
       "LICENSE",
       "mix.exs",
