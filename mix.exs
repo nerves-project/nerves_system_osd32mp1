@@ -95,8 +95,12 @@ defmodule NervesSystemOsd32mp1.MixProject do
   defp package do
     [
       files: package_files(),
-      licenses: ["Apache-2.0"],
-      links: %{"GitHub" => @source_url}
+      licenses: ["GPL-2.0-only", "GPL-2.0-or-later"],
+      links: %{
+        "GitHub" => @source_url,
+        "REUSE Compliance" =>
+          "https://api.reuse.software/info/github.com/#{@github_organization}/#{@app}"
+      }
     ]
   end
 
@@ -110,13 +114,14 @@ defmodule NervesSystemOsd32mp1.MixProject do
       "extlinux.conf",
       "fwup-revert.conf",
       "fwup.conf",
-      "LICENSE",
+      "LICENSES/*",
       "mix.exs",
       "nerves_defconfig",
       "osd32mp1-brk.dts",
       "post-build.sh",
       "post-createfs.sh",
       "README.md",
+      "REUSE.toml",
       "VERSION"
     ]
   end

@@ -1,12 +1,11 @@
 # Generic OSD32MP1 Support
 
-[![CircleCI](https://circleci.com/gh/nerves-project/nerves_system_osd32mp1.svg?style=svg)](https://circleci.com/gh/nerves-project/nerves_system_osd32mp1)
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_osd32mp1.svg "Hex version")](https://hex.pm/packages/nerves_system_osd32mp1)
+[![CI](https://github.com/nerves-project/nerves_system_osd32mp1/actions/workflows/ci.yml/badge.svg)](https://github.com/nerves-project/nerves_system_osd32mp1/actions/workflows/ci.yml)
+[![REUSE status](https://api.reuse.software/badge/github.com/nerves-project/nerves_system_osd32mp1)](https://api.reuse.software/info/github.com/nerves-project/nerves_system_osd32mp1)
 
 This is the base Nerves System configuration for the
 [OSD32MP1-BRK](https://octavosystems.com/octavo_products/osd32mp1-brk/)
-
-![OSD32MP1-BRK](assets/images/osd32mp1-brk.png)
 
 | Feature              | Description                     |
 | -------------------- | ------------------------------- |
@@ -25,11 +24,6 @@ This is the base Nerves System configuration for the
 | WiFi                 | Requires USB WiFi dongle        |
 | Bluetooth            | No                              |
 | Audio                | No                              |
-
-# WARNING
-
-This system is still considered in alpha state, expect backwards incompatible changes
-to be made
 
 # Using
 
