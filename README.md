@@ -29,12 +29,12 @@ This is the base Nerves System configuration for the
 
 The most common way of using this Nerves System is create a project with `mix
 nerves.new` and to export `MIX_TARGET=osd32mp1`. See the [Getting started
-guide](https://hexdocs.pm/nerves/getting-started.html#creating-a-new-nerves-app)
+guide](https://nerves.hexdocs.pm/getting-started.html#creating-a-new-nerves-app)
 for more information.
 
 If you need custom modifications to this system for your device, clone this
 repository and update as described in [Making custom
-systems](https://hexdocs.pm/nerves/customizing-systems.html).
+systems](https://nerves.hexdocs.pm/customizing-systems.html).
 
 ## Boot Jumpers
 
@@ -71,7 +71,7 @@ outside of any filesystem. Provisioning is an optional step and reasonable
 defaults are provided if this is missing.
 
 Provisioning information can be queried using the Nerves.Runtime KV store's
-[`Nerves.Runtime.KV.get/1`](https://hexdocs.pm/nerves_runtime/Nerves.Runtime.KV.html#get/1)
+[`Nerves.Runtime.KV.get/1`](https://nerves-runtime.hexdocs.pm/Nerves.Runtime.KV.html#get/1)
 function.
 
 Keys used by this system are:
