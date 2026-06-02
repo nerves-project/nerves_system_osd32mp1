@@ -629,7 +629,7 @@ This release updates to [Buildroot
 
 * New features
   * Added support for updating the root filesystem using firmware patches.
-    See the [firmware patch docs](https://hexdocs.pm/nerves/experimental-features.html#content) for more information.
+    See the [firmware patch docs](https://nerves.hexdocs.pm/experimental-features.html#content) for more information.
 
 ## v0.3.2
 
